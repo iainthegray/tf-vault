@@ -9,11 +9,6 @@ variable "token" {
   type = string
 }
 
-variable "namespace_name" {
-  description = "The Vault namespace to be created"
-  type = string
-}
-
 variable "kv_path" {
   description = "The path of the kv secrets engine"
   type = string

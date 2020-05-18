@@ -1,8 +1,8 @@
-path "${namespace_name}/secrets/*" {
+path "shared/shared_secrets/*" {
    capabilities = ["read", "list"]
 }
-path "sys/capabilities-self" {
-  capabilities = ["update"]
+path "sys/internal/ui/mounts" {
+    capabilities = ["read"]
 }
 path "shared/sys/capabilities-self" {
   capabilities = ["update"]
