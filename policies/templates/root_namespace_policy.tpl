@@ -1,4 +1,4 @@
-path "shared/shared_secrets/*" {
+path "shared/secrets/*" {
    capabilities = ["read", "list"]
 }
 path "sys/internal/ui/mounts" {

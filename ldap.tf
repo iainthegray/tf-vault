@@ -5,7 +5,7 @@ resource "vault_ldap_auth_backend" "ldap" {
     insecure_tls = true
     starttls     = false
     binddn      = "uid=vault,ou=People,dc=foo,dc=com"
-    bindpass    = "woggy"
+    bindpass    = "password"
     groupattr   = "memberOf"
     groupdn     = "ou=People,dc=foo,dc=com"
     userattr    = "uid"

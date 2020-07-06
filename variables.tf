@@ -18,3 +18,8 @@ variable "up_path" {
   description = "The path of the userpass auth engine"
   type = string
 }
+
+variable "group_map" {
+  description = "Map of groups to policies"
+  type = map
+}

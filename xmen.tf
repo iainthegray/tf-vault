@@ -24,6 +24,7 @@ this namespace in LDAP */
 resource "vault_identity_group" "xmen_group" {
   name     = "xmen_ext"
   type     = "external"
+  policies = [ "shared_pol"]
 }
 resource "vault_identity_group_alias" "xmen-alias" {
   name           = "xmen"
